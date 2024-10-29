@@ -131,6 +131,9 @@ footer {
 /* Mobile screens */
 @media (max-width: 599px) {
 
+    body {
+        padding: 0 1rem; 
+    }
      nav {
         width: 100%;
     }
