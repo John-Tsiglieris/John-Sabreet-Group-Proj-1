@@ -47,8 +47,8 @@ nav ul li a::after {
     transform: scaleX(0); 
     transition: transform 0.3s ease; 
 }
-nav ul li a:hover,
-nav ul li a:focus {
+nav ul li a:hover::after,
+nav ul li a:focus::after {
      transform: scaleX(1);
 }
 
