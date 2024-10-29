@@ -33,11 +33,14 @@ nav ul li a {
     padding: 1rem 2rem;
     text-decoration: none;
     color: #333;
+    border: 2px solid transparent;
+    transition: border-color 0.3s ease;
 }
 
 nav ul li a:hover,
 nav ul li a:focus {
     color: #ff6347;
+    border-color: #000;
 }
 
 h1, h2, h3 {
