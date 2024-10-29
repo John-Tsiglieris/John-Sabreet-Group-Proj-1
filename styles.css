@@ -29,6 +29,10 @@ nav ul {
     width: 100%;
 }
 
+nav ul li {
+    margin: 0;
+}
+
 nav ul li a {
     display: inline-block;
     padding: 1rem 2rem;
