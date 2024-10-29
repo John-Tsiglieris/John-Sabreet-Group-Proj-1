@@ -67,20 +67,21 @@ footer {
 }
 
 .content-container {
-    width: 500px; 
-    margin: 0 auto; 
+    width: 500px;
+    margin: 0 auto 2rem; 
     text-align: left;
 }
 
+
 .content-container img {
-    width: 100%; 
+    width: 100%;
     height: auto; 
+    display: block;
+    margin-bottom: 1rem; 
 }
 
-.content-container p {
+.content-container p, .content-container h3 {
     width: 100%;
-    margin-top: 0;
-    margin-bottom: 1rem;
 }
 
 
